@@ -1,0 +1,7 @@
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\bin\Debug\RecursiveConsoleApp.exe.config
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\bin\Debug\RecursiveConsoleApp.exe
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\bin\Debug\RecursiveConsoleApp.pdb
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\obj\Debug\RecursiveConsoleApp.csprojAssemblyReference.cache
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\obj\Debug\RecursiveConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\obj\Debug\RecursiveConsoleApp.exe
+C:\Users\andes\source\repos\GithubApi\RecursiveConsoleApp\obj\Debug\RecursiveConsoleApp.pdb

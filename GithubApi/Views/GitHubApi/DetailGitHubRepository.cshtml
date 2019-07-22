@@ -1,0 +1,106 @@
+﻿@model GithubApi.ViewModels.GitHubRepositoryViewModel
+
+@{
+    ViewBag.Title = "Detalhe Repositório GitHub";
+}
+
+<h2>Detalhe Repositório GitHub</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.followers_ulr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.followers_ulr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.following_url)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.following_url)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.repos_url)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.repos_url)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.url)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.url)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Updated_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Updated_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Language)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Language)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Html_url)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Html_url)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contributor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contributor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Tornar Favorito", "TurnFavorite", new { id = Model.Name }) |
+    @Html.ActionLink("Voltar para a Lista", "Index")
+</p>
